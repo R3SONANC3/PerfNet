@@ -1,0 +1,153 @@
+body,
+html {
+    background-color: #e0e7ff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header {
+    background-color: #1a2a4a;
+    color: white;
+    padding: 1rem;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Centers the content vertically and horizontally */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 300px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: darkorange;
+}
+
+
+.logo {
+    width: 300px;
+}
+
+.dashboard-container {
+    padding: 20px;
+    height: 110VH;
+    background-color: #f0f4ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c7d2fe;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #9bb1ff;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.section-content {
+    padding: 20px;
+    background-color: #4d527c;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Graph section */
+.section.graph .section-content {
+
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Bottom sections (log and AI results) */
+.bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Paper styling for charts */
+.MuiPaper-root {
+    background-color: #1e1e2f !important;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 10px !important;
+}
+
+/* Typography for chart titles */
+.MuiTypography-root {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+/* Line chart styling */
+.MuiLineChart-root {
+    background-color: #2e2e3f;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Adjusting the labels and axes */
+.x-charts-axis-label,
+.x-charts-axis-tick {
+    color: #bbb;
+}
+
+/* Styling the network usage labels */
+.x-charts-series-label {
+    font-size: 12px;
+    fill: #fff;
+}
